@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basic-refactoring-branas", "basic-refactoring-branas\basic-refactoring-branas.csproj", "{9FC69452-5DD8-45CE-B858-804F467F21F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic-refactoring-branas.test", "basic-refactoring-branas.test\basic-refactoring-branas.test.csproj", "{A5669CF1-E3B4-45E5-9C59-8BA97BFAD144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "basic-refactoring-branas.test", "basic-refactoring-branas.test\basic-refactoring-branas.test.csproj", "{A5669CF1-E3B4-45E5-9C59-8BA97BFAD144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basic-refactoring-branas.API", "basic-refactoring-branas.API\basic-refactoring-branas.API.csproj", "{EF4800AD-0587-43A7-BE5A-240C73F5980A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A5669CF1-E3B4-45E5-9C59-8BA97BFAD144}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5669CF1-E3B4-45E5-9C59-8BA97BFAD144}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5669CF1-E3B4-45E5-9C59-8BA97BFAD144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4800AD-0587-43A7-BE5A-240C73F5980A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4800AD-0587-43A7-BE5A-240C73F5980A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4800AD-0587-43A7-BE5A-240C73F5980A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4800AD-0587-43A7-BE5A-240C73F5980A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace basic_refactoring_branas
+namespace basic_refactoring_branas.Application.Utils
 {
     public static class CpfValidator
     {
@@ -48,9 +48,9 @@ namespace basic_refactoring_branas
         private static int CalculateDigit(string cpf, int factor)
         {
             int total = 0;
-            foreach(char digit in cpf.ToCharArray())
+            foreach (char digit in cpf.ToCharArray())
             {
-                if(factor > 1)
+                if (factor > 1)
                 {
                     int digitint = int.Parse(digit.ToString());
                     total += digitint * factor--;
